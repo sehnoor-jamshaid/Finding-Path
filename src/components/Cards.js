@@ -1,5 +1,5 @@
 import React from "react";
-import {IMAGE_CDN} from './utils/constants'
+import {IMAGE_CDN} from '../utils/constants'
 
 const Cards = ({data}) => {
     console.log("data",data)

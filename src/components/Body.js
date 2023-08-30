@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Rest from "./utils/MockData";
+import Rest from "../utils/MockData";
 import Cards from "./Cards";
 import Shimmer from "./Shimmer";
 const Body = () => {
