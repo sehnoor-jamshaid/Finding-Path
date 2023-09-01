@@ -1,6 +1,7 @@
 import React,{useState} from "react";
 import { ReactDOM } from "react";
 import Logo from "../../images/Logo.png"
+import { Link } from "react-router-dom";
 const Header = () => {
  const [headerStatus, setHeaderStatus] = useState("Login")
  const clickonLogin=()=>
@@ -15,16 +16,16 @@ const Header = () => {
         <div className="menu_items_cont">
           <ul>
             <li>
-              <a href="#">Home</a>
+             <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="#">About Us</a>
+               <Link to="/about-us">About Us</Link>
             </li>
             <li>
-              <a href="#">Contact Us</a>
+               <Link to="/contact-us">Contact Us</Link>
             </li>
             <li>
-              <a href="#">Careers</a>
+               <Link to="/">Careers</Link>
             </li>
           <button className="top_rated" onClick={clickonLogin}>{headerStatus}</button>
           </ul>

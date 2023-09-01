@@ -150,3 +150,11 @@ border-radius: 7px;
   display: flex;
   flex-wrap: wrap;
 }
+
+.flex_MEnu
+{
+  display: flex;
+  justify-content: space-between;
+ max-width: 800px;
+ margin: 20px auto 0;
+}
